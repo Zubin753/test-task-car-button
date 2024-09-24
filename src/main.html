@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Button</title>
+    <link href="../m.css" rel="stylesheet">
+    <link href="../app.css" rel="stylesheet">
+</head>
+<body>
+<div class="flex flex-col justify-center items-center mx-auto bg-white h-screen font-inter ">
+
+    <div class="flex bg-gray-300 max-w-[440px] min-w-[315px] h-[380px] w-[50%] relative overflow-hidden shadow-cSm duration-[300ms]  hover:animate-shadow pointer-events-none">
+
+        <div class="flex bg-white absolute top-[12px] right-[12px] p-[6px] border-solid border-separatorColor border-[1px] rounded-md font-medium text-xs tracking-wider text-fontColor">
+            button
+        </div>
+
+        <div class="bg-white flex flex-col justify-between w-full h-[158px] self-end px-[12px] py-[16px] transition-all duration-[300ms] hover:h-[286px] ease-in-out pointer-events-auto relative group gap-[12px]">
+
+            <div class="flex h-[48px]  justify-between">
+                <div class="flex flex-col justify-center gap-[10px]">
+                    <div class="flex justify-start  text-secondText text-sm font-normal leading-none tracking-wider">
+                        Subheader
+                    </div>
+                    <div class="flex justify-start  text-xl font-medium leading-none tracking-wider text-fontColor">
+                        Header
+                    </div>
+                </div>
+
+                <div class="flex items-center text-lg font-medium leading-none tracking-wider text-fontColor">Text</div>
+            </div>
+
+
+            <div class="flex flex-col relative  gap-[12px]  ">
+                <div class="flex group-hover:opacity-0 group-hover:invisible group-hover:z-10 group-hover:absolute w-full transition-all duration-[300ms] flex-col gap-[4px]">
+                    <div class="flex justify-center w-full ">
+                        <button disabled
+                                class="flex justify-center items-center  w-full h-[46px] rounded-md bg-button text-[15px] font-semibold  text-white leading-[18px] tracking-wider">
+                            Button
+                        </button>
+                    </div>
+                    <div class="flex justify-center w-full text-secondText text-xs font-normal leading-4">Sub text</div>
+                </div>
+
+                <div class="flex opacity-0 group-hover:opacity-100 transition-all duration-[200ms] group-hover:flex relative flex-col justify-between h-[116px] b-[100px]  border-t-2 border-solid border-separatorColor pt-[12px]">
+                    <div class="flex justify-between">
+                        <div class="text-secondText text-sm font-normal leading-none tracking-wider">Text</div>
+                        <div class="text-sm font-normal leading-none tracking-wider">Link</div>
+                    </div>
+                    <div class="flex justify-between">
+                        <div class="text-secondText text-sm font-normal leading-none tracking-wider">Text</div>
+                        <div class="text-sm font-normal leading-none tracking-wider">Link</div>
+                    </div>
+                    <div class="flex justify-between">
+                        <div class="text-secondText text-sm font-normal leading-none tracking-wider">Text</div>
+                        <div class="text-sm font-normal leading-none tracking-wider">Link</div>
+                    </div>
+                    <div class="flex justify-between">
+                        <div class="text-secondText text-sm font-normal leading-none tracking-wider">Text</div>
+                        <div class="text-sm font-normal leading-none tracking-wider">Link</div>
+                    </div>
+                </div>
+
+                <div class="hidden group-hover:flex flex-col gap-[4px]">
+                    <div class="flex justify-center w-full ">
+                        <button class="flex justify-center items-center  w-full h-[46px] rounded-md bg-button text-[15px] font-semibold  text-white leading-[18px] tracking-wider">
+                            Button
+                        </button>
+                    </div>
+                    <div class="flex justify-center w-full text-secondText text-xs font-normal leading-4">Sub text</div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+</body>
+</html>
+
+
+
